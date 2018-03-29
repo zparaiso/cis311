@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta charset="UTF-8">
+    <title> JS 17 </title>
+</head>
+<body>
+
+
+
+<p id="demo"> </p>
+
+<a href="https://s3.amazonaws.com/mk311spring2018/MKBio.html">Matt Kliman</a>
+<br />
+<a href="https://s3.amazonaws.com/mk311spring2018/JRBio.html">Joel Rodriguez</a>
+<br />
+
+<script>
+
+
+var person = { //core object, initialiazed as a variable
+    firstname: "Zack",
+    lastname: "Paraiso",
+    age:21,
+    eyecolor:"brown"
+}; //container for your data
+person.nationality = "American"; //set a new attribute, adding to its prototype
+
+document.getElementById("demo").innerHTML ="name is: " + person.firstname + "<br>" +
+"<strong>nationality is: </strong>" + person.nationality  + "<br />" +
+"and age is: " + person.age;
+</script>
+
+    </body>
+</html>
